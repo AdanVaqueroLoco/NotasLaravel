@@ -13,8 +13,8 @@
                         <label for="title" class="field-label">Título: </label>
                         <input type="text" name="title" id="title" class="field-input">
 
-                        <label for="content" class="field-label">Contenido:</label>
-                        <textarea name="content" id="content" rows="10" class="field-textarea"></textarea>
+                        <label for="content" class="field-label">Contenido:</label>"{{ $notas->titulo}}"
+                        <textarea name="content" id="content" rows="10" class="field-textarea"></textarea>{!| $notas->contenito !|}
 
                         <button type="submit" class="btn btn-primary">Editar</button>
                     </form>
